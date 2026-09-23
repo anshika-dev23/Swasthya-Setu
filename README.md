@@ -10,7 +10,7 @@
 
 <!-- PROJECT LOGO -->
 
-<img src="./assets/swasthya-setu-logo.svg" width="220" alt="SwasthyaSetu Logo"/>
+<img src="./asset/swasthya-setu-logo.svg" width="230" alt="SwasthyaSetu Logo"/>
 
 <br/><br/>
 
