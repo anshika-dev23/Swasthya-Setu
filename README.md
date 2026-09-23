@@ -1,379 +1,365 @@
 <div align="center">
 
-<a href="https://github.com/anshika-dev23/Swasthya-Setu">
-<img src="assets/swasthya-setu-logo.svg" width="180" alt="SwasthyaSetu Logo">
-</a>
-
-# 🌾 SwasthyaSetu
-
-### Smart Voice-First Rural Healthcare Platform
-
-<p>
-<strong>Listen • Understand • Connect • Care</strong>
-</p>
-
-<p>
-Bridging the communication gap between rural communities and healthcare professionals through accessible technology.
-</p>
+<img src="assets/swasthya-setu-hero.svg"
+     width="100%"
+     alt="SwasthyaSetu - Smart Voice-First Rural Healthcare Platform">
 
 <br>
 
-<img src="https://img.shields.io/badge/VOICE-FIRST-00C6FF?style=for-the-badge">
-<img src="https://img.shields.io/badge/RURAL%20HEALTHCARE-00D084?style=for-the-badge">
-<img src="https://img.shields.io/badge/AI%20ASSISTED-7C3AED?style=for-the-badge">
-<img src="https://img.shields.io/badge/HACKATHON%20PROJECT-F59E0B?style=for-the-badge">
+<a href="#-the-problem">
+<img src="https://img.shields.io/badge/PROBLEM-0B1F2A?style=for-the-badge&logoColor=white">
+</a>
+
+<a href="#-the-solution">
+<img src="https://img.shields.io/badge/SOLUTION-00C878?style=for-the-badge&logoColor=white">
+</a>
+
+<a href="#-how-it-works">
+<img src="https://img.shields.io/badge/WORKFLOW-008CFF?style=for-the-badge&logoColor=white">
+</a>
+
+<a href="#-architecture">
+<img src="https://img.shields.io/badge/ARCHITECTURE-7C3AED?style=for-the-badge&logoColor=white">
+</a>
+
+<a href="#-roadmap">
+<img src="https://img.shields.io/badge/ROADMAP-F59E0B?style=for-the-badge&logoColor=white">
+</a>
 
 <br><br>
 
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/AI-Assisted-7C3AED?style=flat-square">
+
 </div>
 
----
-
-# 🌾 About SwasthyaSetu
-
-**SwasthyaSetu** is a **Smart Voice-First Rural Healthcare Platform** designed to make digital healthcare communication simpler, more accessible and more inclusive for rural communities.
-
-The platform focuses on a fundamental problem:
-
-> **Healthcare technology is useful only when the people who need it can actually use it.**
-
-Many patients may not be comfortable with:
-
-- Typing long messages
-- Reading complicated interfaces
-- Understanding medical terminology
-- Speaking formal or standardized language
-- Navigating multiple digital screens
-
-SwasthyaSetu therefore explores a **voice-first interaction model** where patients can communicate naturally and healthcare professionals can receive structured information.
+<br>
 
 ---
 
 <div align="center">
 
-## 🎙️ The Core Idea
+> **Healthcare communication should be accessible before it can be digital.**
 
-### **Patient ki language mein suno → samjho → doctor tak pahunchao → doctor ki advice patient ki language mein wapas samjhao.**
+</div>
+
+<br>
+
+# 🌾 About SwasthyaSetu
+
+**SwasthyaSetu** is a **Smart Voice-First Rural Healthcare Platform** designed around one simple idea:
+
+> **Let people communicate about their healthcare in a way that feels natural to them.**
+
+The platform explores voice-first interaction for rural communities where typing, complicated interfaces, medical terminology, language differences, and unreliable connectivity can become barriers to digital healthcare.
+
+Instead of making the patient adapt completely to the application, SwasthyaSetu aims to make the interaction **simpler, more accessible, and more human.**
+
+---
+
+# 🚨 The Problem
+
+Rural healthcare access is not only about the physical availability of hospitals.
+
+The **communication layer** itself can become a barrier.
+
+### Common challenges include:
+
+| Challenge | Impact |
+|---|---|
+| 🏥 Limited access to doctors | Difficult access to timely professional guidance |
+| 🛣️ Long travel distances | Additional effort and cost |
+| 📶 Unstable connectivity | Difficulty using continuously online systems |
+| ⌨️ Typing dependency | Patients may struggle to describe symptoms |
+| 📖 Low digital literacy | Complex interfaces can become difficult to navigate |
+| 🗣️ Language differences | Formal language may not match everyday communication |
+| 🎙️ Accent variations | Speech systems may need regional adaptation |
+| 📋 Fragmented information | Patient history may become difficult to organize |
+| 💊 Prescription complexity | Instructions may be misunderstood |
+| ⏰ Missed follow-ups | Important healthcare interactions may be missed |
+
+---
+
+# 💡 The Solution
+
+SwasthyaSetu introduces a **voice-first communication layer** between rural patients and healthcare professionals.
+
+Instead of asking a user to navigate a long form:
+
+```text
+OPEN FORM
+    ↓
+TYPE INFORMATION
+    ↓
+SELECT OPTIONS
+    ↓
+SUBMIT
+```
+
+the interaction can move toward:
+
+```text
+PRESS 🎙️
+    ↓
+SPEAK NATURALLY
+    ↓
+UNDERSTAND
+    ↓
+STRUCTURE
+    ↓
+CONFIRM
+    ↓
+CONNECT
+```
+
+### Core principle
+
+<div align="center">
+
+## 🎙️ Listen → 🧠 Understand → 📋 Structure → 👨‍⚕️ Connect → 🔊 Respond
 
 </div>
 
 ---
 
-# 🚨 01. Problem Statement
-
-Rural communities can face multiple barriers when accessing timely and organized healthcare.
-
-The challenge is not limited to the physical availability of hospitals.
-
-It can also involve:
-
-| Problem | Challenge |
-|---|---|
-| 🏥 Limited doctors | Specialists may not always be easily accessible |
-| 🛣️ Long distance | Healthcare facilities may require significant travel |
-| 📶 Poor connectivity | Internet-dependent systems may become difficult to use |
-| 📱 Low digital literacy | Complex applications may discourage users |
-| ⌨️ Typing difficulty | Patients may struggle to describe symptoms through text |
-| 🗣️ Language barriers | Formal language may differ from everyday speech |
-| 🎙️ Accent variations | Speech recognition may struggle with local accents |
-| 📋 Fragmented records | Patient information may not be organized |
-| 💊 Prescription confusion | Dosage and precautions may be difficult to understand |
-| ⏰ Missed follow-ups | Important healthcare instructions may be forgotten |
-
----
-
-# 🎯 02. The Real Design Challenge
-
-The question is not simply:
-
-> **"Can we build another healthcare application?"**
-
-The bigger question is:
-
-> **"Can a person with limited digital literacy actually use it comfortably?"**
-
-This leads to the core design principle of SwasthyaSetu:
-
-```text
-Technology should adapt to the patient
-                ↓
-        NOT the patient
-                ↓
-       adapt to technology
-```
-
----
-
-# 💡 03. Proposed Solution
-
-SwasthyaSetu introduces a **voice-first healthcare communication layer**.
-
-Instead of forcing users to type complicated descriptions, the platform is designed around natural voice interaction.
-
-### Basic concept
-
-```text
-🎙️ SPEAK
-   ↓
-📝 CONVERT
-   ↓
-🧠 UNDERSTAND
-   ↓
-📋 STRUCTURE
-   ↓
-👨‍⚕️ CONNECT
-   ↓
-💬 RESPOND
-   ↓
-🔊 SPEAK BACK
-```
-
-The system can help transform natural speech into structured information that can be reviewed by healthcare professionals.
-
----
-
-# 🔄 04. Complete Patient Flow
-
-```mermaid
-flowchart LR
-
-A["👤 Patient"]
---> B["🌐 Language Selection"]
-
-B --> C["🎙️ Speak Naturally"]
-
-C --> D["📝 Speech-to-Text"]
-
-D --> E["🧠 AI / NLP"]
-
-E --> F{"Information<br/>Clear?"}
-
-F -->|No| G["❓ Ask Confirmation"]
-
-G --> C
-
-F -->|Yes| H["📋 Structure Information"]
-
-H --> I["🗄️ Patient Record"]
-
-I --> J["👨‍⚕️ Healthcare Professional"]
-
-J --> K["🩺 Review"]
-
-K --> L["💬 Healthcare Guidance"]
-
-L --> M["🌐 Language Processing"]
-
-M --> N["🔊 Voice Response"]
-
-N --> A
-```
-
----
-
-# 🎙️ 05. Voice-First Patient Registration
-
-Traditional healthcare applications often depend on forms.
-
-SwasthyaSetu explores a simpler interaction:
-
-### Patient says:
-
-> **"Mera naam Ram Kumar hai, meri age 52 saal hai aur main Barabanki ke ek gaon mein rehta hoon."**
-
-The system can extract:
-
-```text
-Name
-↓
-Ram Kumar
-
-Age
-↓
-52
-
-Location
-↓
-Barabanki
-```
-
-The extracted information can then be presented for confirmation.
-
-```mermaid
-flowchart TD
-
-A["🎙️ Patient Speech"]
---> B["📝 Speech Recognition"]
-
-B --> C["🧠 Information Extraction"]
-
-C --> D["📋 Structured Data"]
-
-D --> E{"Confirm Information?"}
-
-E -->|YES| F["✅ Create / Update Profile"]
-
-E -->|NO| G["✏️ Correct Information"]
-
-G --> C
-```
-
-### Important principle
-
-> **If the system is uncertain about important information, it should ask instead of silently assuming.**
-
----
-
-# 🩺 06. Voice-Based Health Complaint
-
-Patients can describe their symptoms naturally.
-
-### Example
-
-> **"Mujhe teen din se bukhar hai aur raat mein bahut zyada thand lagti hai."**
-
-The platform can organize the information as:
-
-```text
-Complaint
-   ↓
-Fever
-
-Duration
-   ↓
-3 Days
-
-Additional Information
-   ↓
-Chills at night
-```
-
-The purpose is to improve **communication and information organization**.
-
-It is not intended to independently diagnose the patient.
-
----
-
-# 🌐 07. Regional Language & Accent Support
-
-Real-world communication is diverse.
-
-SwasthyaSetu is designed with future support for:
-
-- 🇮🇳 Hindi
-- Regional languages
-- Local accents
-- Mixed-language speech
-- Everyday vocabulary
-- Common pronunciation variations
-
-For example:
-
-```text
-"Dawai"
-"Dawa"
-"Medicine"
-```
-
-can potentially be normalized into the same general concept.
-
-Similarly:
-
-```text
-"Sugar"
-"Shugar"
-"Suggar"
-```
-
-can be processed as possible speech variations depending on context.
-
----
-
-# 🧠 08. AI-Assisted Information Structuring
-
-AI can act as an **information-processing layer** between natural speech and structured healthcare records.
-
-```mermaid
-flowchart LR
-
-A["🎙️ Natural Speech"]
---> B["📝 Speech-to-Text"]
-
-B --> C["🧠 NLP"]
-
-C --> D["🔎 Entity Extraction"]
-
-D --> E["📋 Structured Information"]
-
-E --> F["👨‍⚕️ Human Review"]
-```
-
-Possible information categories include:
-
-- Patient details
-- Symptoms
-- Duration
-- Location
-- Medicines
-- Follow-up information
-- Appointment information
-- Vitals
-
----
-
-# 👨‍⚕️ 09. Human-in-the-Loop Healthcare
-
-SwasthyaSetu is designed around a **human-in-the-loop model**.
-
-AI can assist with:
-
-- Understanding speech
-- Structuring information
-- Language processing
-- Organizing patient information
-
-Healthcare professionals remain involved in medical decision-making.
+# 🧭 The User Journey
 
 ```mermaid
 flowchart LR
 
 P["👤 Patient"]
---> V["🎙️ Voice"]
 
-V --> AI["🧠 AI-Assisted Processing"]
+P --> V["🎙️ Speak Naturally"]
 
-AI --> D["👨‍⚕️ Doctor / Healthcare Professional"]
+V --> S["📝 Speech-to-Text"]
 
-D --> R["💬 Healthcare Guidance"]
+S --> AI["🧠 AI / NLP"]
 
-R --> T["🌐 Language Processing"]
+AI --> C{"Information<br/>Clear?"}
 
-T --> O["🔊 Voice Response"]
+C -->|No| Q["❓ Ask for Confirmation"]
 
-O --> P
+Q --> V
+
+C -->|Yes| R["📋 Structured Record"]
+
+R --> D["👨‍⚕️ Healthcare Professional"]
+
+D --> G["💬 Healthcare Guidance"]
+
+G --> L["🌐 Language Processing"]
+
+L --> T["🔊 Text-to-Speech"]
+
+T --> P
 ```
 
 ---
 
-# 🔊 10. Voice Response
+# 🎙️ Voice-Based Registration
 
-Healthcare instructions can potentially be converted into a patient-friendly voice response.
+Instead of filling a long registration form, the user can communicate naturally.
+
+### Example
+
+> **"Mera naam Ram Kumar hai, meri age 52 saal hai aur main Barabanki ke ek gaon mein rehta hoon."**
+
+The system can process relevant information such as:
 
 ```text
-👨‍⚕️ Healthcare Professional
-             ↓
-       Healthcare Guidance
-             ↓
-      Language Processing
-             ↓
-       Text-to-Speech
-             ↓
-          🔊 Voice
-             ↓
-        👤 Patient
+Name
+   ↓
+Ram Kumar
+
+Age
+   ↓
+52
+
+Location
+   ↓
+Barabanki
 ```
 
-Potential applications:
+The extracted information can then be shown to the user for confirmation before being stored.
+
+### Design rule
+
+> **When important information is uncertain, ask for confirmation instead of silently assuming.**
+
+---
+
+# 🩺 Voice-Based Health Complaint
+
+A patient can describe their problem naturally.
+
+### Example
+
+> **"Mujhe teen din se bukhar hai aur raat mein bahut zyada thand lagti hai."**
+
+The system can organize the information into a structured representation:
+
+```yaml
+complaint: fever
+
+duration:
+  value: 3
+  unit: days
+
+additional_information:
+  - chills at night
+```
+
+The goal is to **improve communication and information organization**.
+
+It is not intended to independently diagnose a patient.
+
+---
+
+# 🌐 Regional Language & Accent Awareness
+
+Healthcare communication does not always happen in standardized language.
+
+SwasthyaSetu is designed with future support for:
+
+- Hindi
+- Regional languages
+- Local accents
+- Mixed-language speech
+- Everyday vocabulary
+- Pronunciation variations
+
+For example:
+
+```text
+Dawai
+Dawa
+Medicine
+```
+
+may represent the same general concept depending on context.
+
+Similarly:
+
+```text
+Sugar
+Shugar
+Suggar
+```
+
+may represent speech variations that need contextual interpretation.
+
+The important design principle is:
+
+```text
+Uncertain
+   ↓
+Ask
+   ↓
+Confirm
+   ↓
+Store
+```
+
+---
+
+# 🧠 AI-Assisted Information Processing
+
+AI is positioned as an **assistive layer**, helping transform natural communication into structured information.
+
+```mermaid
+flowchart LR
+
+A["🎙️ Natural Speech"]
+--> B["📝 Speech Recognition"]
+
+B --> C["🧠 NLP"]
+
+C --> D["🔎 Entity Extraction"]
+
+D --> E["🎯 Intent Recognition"]
+
+E --> F["📋 Structured Information"]
+
+F --> G["👨‍⚕️ Human Review"]
+```
+
+### Potential information categories
+
+- Patient details
+- Symptoms
+- Duration
+- Basic health information
+- Medicines
+- Follow-up requirements
+- Appointment information
+- Vitals
+
+---
+
+# 👨‍⚕️ Human-in-the-Loop Healthcare
+
+SwasthyaSetu is designed around a **human-in-the-loop approach**.
+
+AI can assist with:
+
+- Speech processing
+- Information extraction
+- Language processing
+- Structuring patient-reported information
+
+Healthcare professionals remain involved in healthcare decision-making.
+
+```mermaid
+flowchart LR
+
+P["👤 Patient"]
+--> AI["🧠 AI-Assisted Processing"]
+
+AI --> H["👨‍⚕️ Healthcare Professional"]
+
+H --> G["💬 Guidance"]
+
+G --> T["🌐 Language Processing"]
+
+T --> V["🔊 Voice Response"]
+
+V --> P
+```
+
+---
+
+# 🔊 Voice Response
+
+The communication loop can work in both directions.
+
+```text
+PATIENT
+   │
+   │ speaks
+   ▼
+🎙️ VOICE
+   │
+   ▼
+🧠 PROCESSING
+   │
+   ▼
+👨‍⚕️ HEALTHCARE PROFESSIONAL
+   │
+   │ guidance
+   ▼
+🌐 LANGUAGE PROCESSING
+   │
+   ▼
+🔊 VOICE RESPONSE
+   │
+   ▼
+PATIENT
+```
+
+Potential use cases include communicating:
 
 - Medicine instructions
 - Dosage information
@@ -383,85 +369,72 @@ Potential applications:
 
 ---
 
-# 📋 11. Digital Health Timeline
+# ❤️ Vitals & Health Timeline
 
-SwasthyaSetu can organize healthcare interactions chronologically.
+The platform can organize basic patient information over time.
+
+### Example
 
 ```text
-┌─────────────────────────────────────┐
-│          HEALTH TIMELINE            │
-├─────────────────────────────────────┤
-│                                     │
-│ 📅 Registration                     │
-│ Patient profile created             │
-│                                     │
-│              ↓                      │
-│                                     │
-│ 📅 Health Complaint                 │
-│ Patient-reported symptoms           │
-│                                     │
-│              ↓                      │
-│                                     │
-│ 📅 Vitals                           │
-│ Basic measurements recorded         │
-│                                     │
-│              ↓                      │
-│                                     │
-│ 📅 Healthcare Review                │
-│ Professional reviews information   │
-│                                     │
-│              ↓                      │
-│                                     │
-│ 📅 Follow-up                        │
-│ Future healthcare interaction       │
-│                                     │
-└─────────────────────────────────────┘
+┌──────────────────────────────────────┐
+│          PATIENT HEALTH TIMELINE     │
+├──────────────────────────────────────┤
+│                                      │
+│ 👤 Registration                      │
+│       │                              │
+│       ▼                              │
+│ 🎙️ Health Complaint                  │
+│       │                              │
+│       ▼                              │
+│ ❤️ Vitals                            │
+│       │                              │
+│       ▼                              │
+│ 👨‍⚕️ Healthcare Review                 │
+│       │                              │
+│       ▼                              │
+│ 💬 Guidance                          │
+│       │                              │
+│       ▼                              │
+│ 🔁 Follow-up                         │
+│                                      │
+└──────────────────────────────────────┘
 ```
 
----
+### Current prototype supports
 
-# ❤️ 12. Vitals Monitoring
-
-The current prototype includes basic vitals recording.
-
-| Vital | Example |
-|---|---:|
-| 🌡️ Temperature | 38.5°C |
-| ❤️ Pulse | 82 BPM |
-| 🫁 SpO₂ | 97% |
-| 🩸 Blood Pressure | 120/80 |
-| ⚖️ Weight | 60 kg |
-
-The platform can display simple status indicators for easier interpretation.
-
-> **Vitals indicators are informational and do not replace professional medical assessment.**
+- Patient registration
+- Patient records
+- Vitals recording
+- Vitals storage
+- Smart vitals status
+- Basic health timeline
 
 ---
 
-# 👩‍⚕️ 13. ASHA / Community Health Worker Layer
+# 👩‍⚕️ Community Health Worker Layer
 
-Community health workers can act as an important bridge for users who may need assistance with digital healthcare.
+Community health workers can provide an important bridge for users who need assistance.
 
 ```mermaid
 flowchart LR
 
-A["🌾 Rural Patient"]
---> B["👩‍⚕️ ASHA / Community Worker"]
+P["🌾 Rural Patient"]
+--> A["👩‍⚕️ ASHA / Community Worker"]
 
-B --> C["🎙️ SwasthyaSetu"]
+A --> S["🌐 SwasthyaSetu"]
 
-C --> D["📋 Patient Information"]
+S --> R["📋 Structured Information"]
 
-D --> E["👨‍⚕️ Healthcare Professional"]
+R --> D["👨‍⚕️ Healthcare Professional"]
 
-E --> F["💬 Guidance"]
+D --> G["💬 Guidance"]
 
-F --> B
+G --> A
 
-B --> A
+A --> P
 ```
 
-Potential workflows:
+Potential workflows include:
 
 - Assisted registration
 - Vitals recording
@@ -471,11 +444,11 @@ Potential workflows:
 
 ---
 
-# 📶 14. Offline-Resilient Architecture
+# 📶 Offline-Resilient Vision
 
-Rural connectivity can vary.
+Connectivity can vary significantly across locations.
 
-A future version of SwasthyaSetu can support local data storage and synchronization.
+A future architecture can support local storage with synchronization when connectivity returns.
 
 ```mermaid
 flowchart TD
@@ -495,57 +468,34 @@ F -->|YES| C
 
 F -->|NO| E
 
-C --> G["🔄 Synchronization"]
+C --> G["🔄 Synchronize"]
 
 G --> H["✅ Updated Record"]
 ```
 
 ---
 
-# 🔐 15. Security & Privacy
+# 🔐 Security & Privacy
 
 Healthcare information is sensitive.
 
-Security is therefore considered part of the platform architecture.
+A production implementation would require appropriate security and privacy controls.
 
-### Planned security components
+### Planned security considerations
 
-- 🔐 Authentication
-- 👥 Role-based access control
-- 🛡️ Protected patient records
-- 🔑 Secure credentials
-- 📜 Activity logging
-- 🔒 Controlled access
-- 🧹 Controlled handling of voice data
-
-### Role architecture
-
-```mermaid
-flowchart TD
-
-A["🔐 SwasthyaSetu"]
-
-A --> B["👤 Patient"]
-A --> C["👩‍⚕️ ASHA"]
-A --> D["👨‍⚕️ Doctor"]
-A --> E["🛠️ Administrator"]
-
-B --> B1["Profile"]
-B --> B2["Health Timeline"]
-
-C --> C1["Assisted Registration"]
-C --> C2["Vitals"]
-
-D --> D1["Patient Requests"]
-D --> D2["Healthcare Review"]
-
-E --> E1["User Management"]
-E --> E2["System Monitoring"]
-```
+| Layer | Approach |
+|---|---|
+| 🔐 Authentication | Secure user authentication |
+| 👥 Authorization | Role-based access |
+| 🛡️ Patient Records | Controlled access |
+| 🔑 Credentials | Secure credential handling |
+| 📜 Auditability | Activity logging |
+| 🎙️ Voice Data | Responsible data handling |
+| 🔒 Infrastructure | Secure deployment practices |
 
 ---
 
-# 🏗️ 16. System Architecture
+# 🏗️ System Architecture
 
 ```mermaid
 flowchart TB
@@ -554,7 +504,7 @@ subgraph USERS["USER LAYER"]
 
 P["👤 Patient"]
 A["👩‍⚕️ ASHA Worker"]
-D["👨‍⚕️ Doctor"]
+D["👨‍⚕️ Healthcare Professional"]
 
 end
 
@@ -565,7 +515,7 @@ VOICE["🎙️ Voice Interface"]
 
 end
 
-subgraph AI["INTELLIGENCE LAYER"]
+subgraph INTELLIGENCE["INTELLIGENCE LAYER"]
 
 STT["📝 Speech-to-Text"]
 NLP["🧠 AI / NLP"]
@@ -573,7 +523,7 @@ TTS["🔊 Text-to-Speech"]
 
 end
 
-subgraph APP["APPLICATION LAYER"]
+subgraph APPLICATION["APPLICATION LAYER"]
 
 FLASK["⚙️ Flask Backend"]
 AUTH["🔐 Authentication"]
@@ -584,8 +534,9 @@ end
 subgraph DATA["DATA LAYER"]
 
 DB["🗄️ SQLite"]
-TIMELINE["📋 Health Timeline"]
-VITALS["❤️ Vitals"]
+REC["📋 Patient Records"]
+VIT["❤️ Vitals"]
+TIME["⏱️ Health Timeline"]
 
 end
 
@@ -604,8 +555,9 @@ FLASK --> AUTH
 FLASK --> LOGIC
 
 LOGIC --> DB
-LOGIC --> TIMELINE
-LOGIC --> VITALS
+LOGIC --> REC
+LOGIC --> VIT
+LOGIC --> TIME
 
 FLASK --> TTS
 TTS --> VOICE
@@ -613,76 +565,139 @@ TTS --> VOICE
 
 ---
 
-# 🧩 17. Feature Architecture
+# 🧩 Core Modules
 
-```text
-                         🌾 SWASTHYASETU
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        │                      │                      │
-        ▼                      ▼                      ▼
-    🎙️ VOICE              🏥 HEALTHCARE          🧠 AI
-        │                      │                      │
-   ┌────┼────┐            ┌────┼────┐            ┌────┼────┐
-   │    │    │            │    │    │            │    │    │
-  STT  TTS  Language     ASHA Doctor Records   NLP Intent Entity
-        │                      │                      │
-        └──────────────────────┼──────────────────────┘
-                               │
-                               ▼
-                        🌾 RURAL ACCESS
-```
+<table>
+<tr>
+
+<td width="33%" valign="top">
+
+## 🎙️ Voice Layer
+
+- Speech recognition
+- Text-to-speech
+- Language processing
+- Voice interaction
+
+</td>
+
+<td width="33%" valign="top">
+
+## 👤 Patient Layer
+
+- Registration
+- Profiles
+- Health complaints
+- Vitals
+- Timeline
+
+</td>
+
+<td width="33%" valign="top">
+
+## 👨‍⚕️ Healthcare Layer
+
+- Doctor access
+- ASHA workflows
+- Follow-ups
+- Healthcare guidance
+
+</td>
+
+</tr>
+
+<tr>
+
+<td valign="top">
+
+## 🧠 Intelligence
+
+- NLP
+- Entity extraction
+- Intent recognition
+- Confidence handling
+
+</td>
+
+<td valign="top">
+
+## 🗄️ Data
+
+- Patient records
+- Vitals
+- Health timeline
+- Interaction history
+
+</td>
+
+<td valign="top">
+
+## 🔐 Security
+
+- Authentication
+- Authorization
+- Access control
+- Auditability
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-# ✨ 18. Key Features
+# ✨ Key Features
 
 | Feature | Purpose |
 |---|---|
-| 🎙️ Voice Interaction | Natural communication |
-| 👤 Patient Registration | Structured patient profiles |
-| 🩺 Health Complaints | Record patient concerns |
-| ❤️ Vitals | Store basic health measurements |
-| 📋 Health Timeline | Organize patient history |
-| 👩‍⚕️ ASHA Support | Assisted healthcare workflows |
-| 👨‍⚕️ Doctor Connectivity | Healthcare professional review |
+| 🎙️ Voice Interaction | Reduce dependence on typing |
+| 👤 Patient Registration | Create structured profiles |
+| 🩺 Health Complaints | Capture patient-reported concerns |
+| ❤️ Vitals | Record basic health measurements |
+| 📋 Health Timeline | Organize patient information |
+| 👩‍⚕️ ASHA Support | Enable assisted workflows |
+| 👨‍⚕️ Professional Connectivity | Facilitate information sharing |
 | 🌐 Language Support | Improve accessibility |
-| 📶 Offline Architecture | Handle connectivity limitations |
+| 📶 Offline Architecture | Handle connectivity constraints |
+| 🧠 AI Assistance | Structure natural communication |
 | 🔐 Security | Protect sensitive information |
-| 🧠 AI Assistance | Structure natural-language information |
 
 ---
 
-# 🛠️ 19. Technology Stack
+# 🛠️ Technology Stack
+
+<div align="center">
 
 | Layer | Technology |
 |---|---|
 | 🎨 Frontend | HTML5 • CSS3 • JavaScript |
 | ⚙️ Backend | Python • Flask |
 | 🗄️ Database | SQLite |
-| 🧠 AI Layer | AI / NLP |
+| 🧠 Intelligence | AI / NLP |
 | 🎙️ Voice | Speech-to-Text |
-| 🔊 Output | Text-to-Speech |
+| 🔊 Response | Text-to-Speech |
 | 🔐 Security | Authentication • RBAC |
 | 📱 Future | PWA • Offline-first |
-| ☁️ Deployment | Cloud-ready architecture |
+
+</div>
 
 ---
 
-# 📂 20. Project Structure
+# 📂 Project Structure
 
 ```text
-Swasthya-Setu/
+SwasthyaSetu/
 │
 ├── app.py
 ├── database.py
 ├── database.db
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 │
 ├── assets/
-│   └── swasthya-setu-logo.svg
+│   ├── swasthya-setu-logo.svg
+│   └── swasthya-setu-hero.svg
 │
 ├── templates/
 │   ├── index.html
@@ -695,29 +710,26 @@ Swasthya-Setu/
 │   ├── css/
 │   │   └── style.css
 │   │
-│   ├── js/
-│   │   └── script.js
-│   │
-│   └── images/
+│   └── js/
+│       └── script.js
 │
 └── screenshots/
     ├── dashboard.png
     ├── patient-registration.png
     ├── vitals.png
-    ├── health-timeline.png
-    └── voice-interface.png
+    └── health-timeline.png
 ```
 
 ---
 
-# ✅ 21. Current Implementation
+# 🚀 Current Implementation
 
-### Implemented
+### Completed
 
 - [x] Flask application setup
 - [x] SQLite database
 - [x] Patient registration
-- [x] Patient listing
+- [x] Patients list
 - [x] Patient details
 - [x] Vitals recording
 - [x] Vitals database
@@ -742,152 +754,176 @@ Swasthya-Setu/
 
 ---
 
-# 🚧 22. Development Roadmap
+# 🗺️ Development Roadmap
 
-## Phase 01 — Foundation
+```mermaid
+timeline
 
-```text
-Flask
-  ↓
-SQLite
-  ↓
-Patient Records
-  ↓
-Vitals
-  ↓
-Health Timeline
-```
+title SwasthyaSetu Roadmap
 
-## Phase 02 — Voice Layer
+Foundation : Flask Backend
+           : SQLite Database
+           : Patient Records
+           : Vitals
+           : Health Timeline
 
-```text
-Microphone
-  ↓
-Speech-to-Text
-  ↓
-Language Processing
-  ↓
-Structured Information
-```
+Voice Layer : Voice Registration
+            : Speech-to-Text
+            : Voice Complaints
+            : Text-to-Speech
 
-## Phase 03 — Healthcare Connectivity
+Healthcare : Doctor Dashboard
+           : ASHA Workflow
+           : Appointments
+           : Follow-ups
 
-```text
-Patient
-  ↓
-SwasthyaSetu
-  ↓
-ASHA / Doctor
-  ↓
-Healthcare Guidance
-```
+Intelligence : NLP
+             : Entity Extraction
+             : Intent Recognition
+             : Confidence Detection
 
-## Phase 04 — Intelligence
-
-```text
-Speech
-  ↓
-NLP
-  ↓
-Entity Extraction
-  ↓
-Confidence Detection
-  ↓
-Confirmation
-```
-
-## Phase 05 — Scale
-
-```text
-Offline Mode
-      ↓
-PWA
-      ↓
-Secure Cloud
-      ↓
-Scalable Healthcare Platform
+Scale : Offline Mode
+      : PWA
+      : Secure Cloud Deployment
 ```
 
 ---
 
-# 🧪 23. Example Interaction
+# 📸 Interface
+
+> Add screenshots of the **actual implemented application** here as the project evolves.
+
+<div align="center">
+
+### 🏠 Dashboard
+
+<img src="screenshots/dashboard.png"
+     width="88%"
+     alt="SwasthyaSetu Dashboard">
+
+<br><br>
+
+### 👤 Patient Registration
+
+<img src="screenshots/patient-registration.png"
+     width="88%"
+     alt="Patient Registration">
+
+<br><br>
+
+### ❤️ Vitals
+
+<img src="screenshots/vitals.png"
+     width="88%"
+     alt="Vitals">
+
+<br><br>
+
+### 📋 Health Timeline
+
+<img src="screenshots/health-timeline.png"
+     width="88%"
+     alt="Health Timeline">
+
+</div>
+
+---
+
+# 💻 Getting Started
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/anshika-dev23/Swasthya-Setu.git
+cd Swasthya-Setu
+```
+
+## 2. Create a virtual environment
+
+### macOS / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+## 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Run the application
+
+```bash
+python app.py
+```
+
+Open:
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+# 🧪 Example Interaction
 
 ### 👤 Patient
 
 > **"Mujhe teen din se bukhar hai aur raat mein bahut thand lagti hai."**
 
-### 🧠 SwasthyaSetu
+### 🎙️ Voice Layer
 
 ```text
-Detected Complaint
-        ↓
-Fever
+Speech
+ ↓
+Speech-to-Text
+```
 
-Duration
-        ↓
-3 Days
+### 🧠 Intelligence Layer
 
-Additional Information
-        ↓
-Chills at night
+```text
+Complaint → Fever
+Duration → 3 Days
+Additional → Chills at night
 ```
 
 ### 👨‍⚕️ Healthcare Professional
 
-Reviews the available information.
+Reviews the available information and provides appropriate healthcare guidance.
 
-### 💬 Healthcare Guidance
+### 🔊 Response Layer
 
-Appropriate guidance is provided by the healthcare professional.
-
-### 🔊 SwasthyaSetu
-
-The response can be converted into a patient-friendly voice interaction.
+The guidance can be transformed into an accessible voice interaction.
 
 ---
 
-# 🎨 24. Design Philosophy
+# 🌱 Future Vision
 
-## 🎙️ Voice First
-
-Reduce dependence on typing.
-
-## 🌐 Accessibility First
-
-Consider language, literacy, device and connectivity limitations.
-
-## 👨‍⚕️ Human in the Loop
-
-AI assists communication rather than independently replacing healthcare professionals.
-
-## ❓ Confirm, Don't Assume
-
-Uncertain important information should trigger confirmation.
-
-## 🌾 Rural First
-
-The interface should consider real-world rural usage conditions.
-
----
-
-# 🌱 25. Future Vision
-
-SwasthyaSetu can evolve from a healthcare management prototype into a broader rural healthcare communication ecosystem.
+SwasthyaSetu can evolve into a broader rural healthcare communication ecosystem.
 
 ```mermaid
 mindmap
 
 root((🌾 SwasthyaSetu))
 
-  🎙️ Voice Healthcare
+  🎙️ Voice
     Speech Recognition
     Text-to-Speech
     Regional Languages
     Accent Awareness
 
   👨‍⚕️ Healthcare
-    Doctor Dashboard
-    ASHA Support
+    Doctors
+    ASHA Workers
     Appointments
     Follow-ups
     Prescriptions
@@ -902,206 +938,65 @@ root((🌾 SwasthyaSetu))
     Offline Mode
     PWA
     Low Bandwidth
-    Simple UI
+    Simple Interface
 
-  🔐 Security
+  🔐 Trust
     Authentication
-    RBAC
+    Authorization
     Secure Records
     Audit Logs
 ```
 
 ---
 
-# 📸 26. Screenshots
+# ⚠️ Responsible Use
 
-> Add real application screenshots here as the project develops.
+SwasthyaSetu is a software prototype focused on healthcare communication and information organization.
 
-### 🏠 Dashboard
+It is **not intended to independently diagnose medical conditions or replace qualified healthcare professionals.**
 
-![SwasthyaSetu Dashboard](screenshots/dashboard.png)
-
-### 👤 Patient Registration
-
-![Patient Registration](screenshots/patient-registration.png)
-
-### ❤️ Vitals
-
-![Vitals](screenshots/vitals.png)
-
-### 📋 Health Timeline
-
-![Health Timeline](screenshots/health-timeline.png)
-
-### 🎙️ Voice Interface
-
-![Voice Interface](screenshots/voice-interface.png)
-
----
-
-# 🎥 27. Demo Flow
-
-```text
-                 🌾 SWASTHYASETU DEMO
-
-                         │
-                         ▼
-                    👤 Patient
-                         │
-                         ▼
-                 🎙️ Press Microphone
-                         │
-                         ▼
-                🗣️ Speak Naturally
-                         │
-                         ▼
-                 📝 Speech Processing
-                         │
-                         ▼
-                    🧠 AI / NLP
-                         │
-                         ▼
-               📋 Structured Information
-                         │
-                         ▼
-                    👨‍⚕️ Doctor
-                         │
-                         ▼
-                    💬 Guidance
-                         │
-                         ▼
-                     🔊 Voice
-                         │
-                         ▼
-                     👤 Patient
-```
-
----
-
-# 🚀 28. Getting Started
-
-## Clone
-
-```bash
-git clone https://github.com/anshika-dev23/Swasthya-Setu.git
-
-cd Swasthya-Setu
-```
-
-## Create Virtual Environment
-
-### macOS / Linux
-
-```bash
-python3 -m venv venv
-
-source venv/bin/activate
-```
-
-### Windows
-
-```bash
-python -m venv venv
-
-venv\Scripts\activate
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Run Application
-
-```bash
-python app.py
-```
-
-Then open:
-
-```text
-http://127.0.0.1:5000
-```
-
----
-
-# 🔐 29. Security & Medical Disclaimer
-
-SwasthyaSetu is currently a **hackathon prototype**.
-
-It is not intended to independently diagnose medical conditions or replace qualified healthcare professionals.
-
-A production implementation would require:
+A production implementation would require appropriate:
 
 - Clinical validation
-- Appropriate security controls
-- Privacy protections
+- Privacy safeguards
+- Security controls
 - Regulatory compliance
-- Secure infrastructure
-- Healthcare professional review
 - Responsible AI evaluation
-- Proper handling of sensitive health data
+- Healthcare professional oversight
 
 ---
 
-# 👥 30. Team
+# 👥 Team
 
-<div align="center">
-
-| 👩‍💻 Team Member | Contribution |
+| Member | Contribution |
 |---|---|
 | **Anshika Srivastava** | Backend • Healthcare Platform • Voice-first Concept |
-| **Team Member** | Add contribution |
-| **Team Member** | Add contribution |
-| **Team Member** | Add contribution |
-
-</div>
+| Team Member | Add contribution |
+| Team Member | Add contribution |
+| Team Member | Add contribution |
 
 ---
 
-# 🏆 31. Hackathon Vision
-
 <div align="center">
 
-<img src="assets/swasthya-setu-logo.svg" width="120">
+<img src="assets/swasthya-setu-logo.svg"
+     width="120"
+     alt="SwasthyaSetu Logo">
 
 <br><br>
 
-## Technology should not create another barrier to healthcare.
-
-### It should remove one.
-
-<br>
-
-### 🎙️ LISTEN
-
-↓
-
-### 🧠 UNDERSTAND
-
-↓
-
-### 👨‍⚕️ CONNECT
-
-↓
-
-### ❤️ CARE
-
-<br>
-
 ## 🌾 From Voice to Care.
 
-</div>
-
----
-
-<div align="center">
-
-### ⭐ If you find the project interesting, consider giving it a star!
+**Listen. Understand. Connect. Care.**
 
 <br>
 
-**Built with ❤️ for accessible rural healthcare**
+<img src="https://img.shields.io/badge/Accessible-Healthcare-00C878?style=for-the-badge">
+<img src="https://img.shields.io/badge/Voice-First-00D9FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/AI-Assisted-7C3AED?style=for-the-badge">
+
+<br><br>
+
+**SwasthyaSetu — Smart Voice-First Rural Healthcare Platform**
 
 </div>
