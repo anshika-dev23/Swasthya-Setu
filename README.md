@@ -173,6 +173,403 @@ For a rural patient with limited digital literacy, this can become a significant
 
 ---
 
+---
+
+# 🧠🌾 Community Disease Detection & Health Camp Prediction
+
+SwasthyaSetu can analyze **aggregated and anonymized health data from a particular village or local area** to identify emerging patterns in commonly reported symptoms and health conditions.
+
+Instead of looking only at one patient, the system looks at the **community-level pattern**.
+
+For example, if many patients from the same area report:
+
+```text
+🌡️ Fever
+🤧 Cough
+😷 Respiratory Symptoms
+```
+
+within a similar period, SwasthyaSetu can identify the pattern and suggest that a relevant **health awareness / screening camp** may be useful in that area.
+
+> The system provides a community-level early-warning and planning signal. It does not independently declare that an outbreak or confirmed disease exists.
+
+---
+
+## 🔄 Community Disease Detection Flow
+
+```text
+👩‍🌾 PATIENT 1 ──┐
+                 │
+👨‍🌾 PATIENT 2 ──┤
+                 │
+👩‍🌾 PATIENT 3 ──┤
+                 │
+👨‍🌾 PATIENT 4 ──┤
+                 │
+👩‍🌾 PATIENT 5 ──┘
+                 │
+                 ▼
+        🗂️ HEALTH DATA
+                 │
+                 ▼
+      🔐 AGGREGATED DATA
+                 │
+                 ▼
+       📊 COMMUNITY ANALYSIS
+                 │
+                 ▼
+      🧠 DISEASE / SYMPTOM
+          PATTERN DETECTION
+                 │
+                 ▼
+        📈 TREND IDENTIFIED
+                 │
+                 ▼
+      🏥 HEALTH CAMP SUGGESTION
+                 │
+                 ▼
+       👨‍⚕️ HEALTH AUTHORITY /
+          HEALTHCARE TEAM
+                 │
+                 ▼
+          📢 COMMUNITY
+            AWARENESS
+```
+
+---
+
+## 📍 Area-Level Health Intelligence
+
+The system can organize information according to geographical/community areas such as:
+
+```text
+District
+   ↓
+Block
+   ↓
+Village
+   ↓
+Local Community
+```
+
+For each area, aggregated information can be analyzed over a defined period.
+
+Example:
+
+```text
+┌────────────────────────────────────┐
+│       COMMUNITY HEALTH DATA        │
+├────────────────────────────────────┤
+│ Area       : Village A             │
+│ Period     : Last 14 Days          │
+│ Reports    : 126                   │
+│                                    │
+│ Fever      : 42                    │
+│ Cough      : 31                    │
+│ Weakness   : 24                    │
+│ Skin Issues: 17                    │
+└────────────────────────────────────┘
+```
+
+The system can then identify which symptoms or health concerns are appearing more frequently in the area.
+
+---
+
+# 📊 From Patient Data to Community Pattern
+
+```text
+Individual Reports
+       │
+       ├── Fever
+       ├── Fever
+       ├── Cough
+       ├── Fever
+       ├── Cough
+       ├── Fever
+       ├── Weakness
+       └── Fever
+              │
+              ▼
+       Data Aggregation
+              │
+              ▼
+       Frequency Analysis
+              │
+              ▼
+       Pattern Detection
+              │
+              ▼
+    Community Health Signal
+```
+
+The objective is to move from:
+
+> **"One patient has a symptom."**
+
+to:
+
+> **"A noticeable number of people in this area are reporting a similar health concern."**
+
+---
+
+# 🏥 Smart Health Camp Suggestion
+
+Once a significant community-level pattern is detected, SwasthyaSetu can suggest a **relevant health camp or screening activity** to the responsible healthcare team.
+
+Example:
+
+```text
+Community Pattern
+       │
+       ▼
+Many respiratory symptoms
+       │
+       ▼
+Community Health Signal
+       │
+       ▼
+Suggested Action
+       │
+       ▼
+🫁 Respiratory Health
+   Screening / Awareness Camp
+```
+
+Another example:
+
+```text
+Repeated reports of
+skin-related symptoms
+       │
+       ▼
+Community Health Signal
+       │
+       ▼
+Suggested Action
+       │
+       ▼
+🩺 Skin Health
+Screening / Awareness Camp
+```
+
+The platform **suggests the type of healthcare activity**; the final decision can remain with the appropriate healthcare authorities or professionals.
+
+---
+
+# 🤖 AI-Assisted Community Analysis
+
+The AI layer can help identify patterns from structured health records.
+
+```text
+          HEALTH RECORDS
+                │
+                ▼
+       ┌─────────────────┐
+       │ Data Aggregation │
+       └────────┬────────┘
+                │
+                ▼
+       ┌─────────────────┐
+       │ Pattern Analysis │
+       └────────┬────────┘
+                │
+                ▼
+       ┌─────────────────┐
+       │ Trend Detection  │
+       └────────┬────────┘
+                │
+                ▼
+       ┌─────────────────┐
+       │ Community Health │
+       │     Signal       │
+       └────────┬────────┘
+                │
+                ▼
+       🏥 Camp Suggestion
+```
+
+---
+
+# 📅 Time-Based Disease Trends
+
+The system can also compare health reports over time.
+
+```text
+Week 1
+   ↓
+Few reports
+   ↓
+Week 2
+   ↓
+Increasing reports
+   ↓
+Week 3
+   ↓
+Higher concentration
+   ↓
+Community Health Signal
+```
+
+This can help healthcare teams notice **changes in community-level symptom patterns** earlier.
+
+---
+
+# 🎯 Example Scenario
+
+Imagine a village with 500 households.
+
+During a 2-week period:
+
+```text
+Total Health Reports
+        ↓
+       150
+        │
+        ├── 52 Fever-related reports
+        ├── 38 Cough-related reports
+        ├── 29 Respiratory complaints
+        └── Other complaints
+```
+
+SwasthyaSetu can identify:
+
+```text
+📈 Increased respiratory/fever-related
+    symptom reporting
+```
+
+Instead of giving an individual diagnosis, the platform can generate an administrative suggestion such as:
+
+```text
+┌─────────────────────────────────────┐
+│      COMMUNITY HEALTH ALERT         │
+├─────────────────────────────────────┤
+│ Area: Village A                     │
+│                                     │
+│ Pattern: Fever + Respiratory        │
+│          Symptoms                   │
+│                                     │
+│ Suggested Action:                  │
+│ 🏥 Community Screening /            │
+│    Awareness Camp                  │
+│                                     │
+│ Final decision:                    │
+│ Healthcare Authority / Professional │
+└─────────────────────────────────────┘
+```
+
+---
+
+# 🔐 Privacy-Aware Community Analytics
+
+Community-level analysis should avoid exposing individual patient identities.
+
+```text
+Individual Patient Data
+        │
+        ▼
+🔐 Protected Records
+        │
+        ▼
+Aggregation
+        │
+        ▼
+Anonymous / Statistical Pattern
+        │
+        ▼
+Community-Level Insight
+```
+
+The purpose is to identify **community health patterns**, not to publicly identify individual patients.
+
+---
+
+# 🌾 Community → AI → Health Camp
+
+The complete concept can be summarized as:
+
+```text
+       👩‍🌾 👨‍🌾 👩‍🌾 👨‍🌾
+        COMMUNITY PATIENTS
+                │
+                ▼
+        🗂️ HEALTH RECORDS
+                │
+                ▼
+        🔐 AGGREGATED DATA
+                │
+                ▼
+        🧠 AI ANALYSIS
+                │
+                ▼
+      📊 COMMUNITY PATTERN
+                │
+                ▼
+       🔍 HEALTH CONCERN
+          IDENTIFIED
+                │
+                ▼
+        🏥 CAMP SUGGESTION
+                │
+                ▼
+       👨‍⚕️ PROFESSIONAL /
+          AUTHORITY REVIEW
+                │
+                ▼
+       📢 COMMUNITY ACTION
+```
+
+### 🌉 The bigger idea
+
+SwasthyaSetu does not only help **one patient at a time**.
+
+It can also use aggregated health information to help healthcare teams understand:
+
+> **"Is there a health concern becoming more common in this community?"**
+
+and potentially support:
+
+> **"What kind of screening or awareness activity could be considered for this area?"**
+
+---
+
+---
+
+# 🌟 Smart Accessibility Features
+
+SwasthyaSetu includes three additional features focused on making healthcare support more accessible for rural communities:
+
+- 📞 AI Voice Helpline
+- 📡 Offline Basic Health Precautions
+- 🏛️ Basic Government Health Policies & Program Guidance
+
+---
+
+# 📞 1. AI Voice Helpline
+
+> **A voice-based support layer for users who may have limited access to smartphones or digital healthcare applications.**
+
+SwasthyaSetu can provide a voice-based helpline where users can communicate naturally through a phone call instead of depending completely on a smartphone application.
+
+### 🎙️ Working Flow
+
+```text
+📞 User Calls
+      ↓
+🎙️ Voice Helpline
+      ↓
+🗣️ User Speaks Naturally
+      ↓
+🎧 Voice Processing
+      ↓
+🧠 AI Assistance
+      ↓
+📋 Information Understanding
+      ↓
+🔊 Voice Response
+      ↓
+👤 User
+
 # 💜 Our Solution
 
 SwasthyaSetu introduces a **voice-first healthcare interaction layer**.
@@ -1406,20 +1803,47 @@ The visual identity intentionally combines:
 
 ---
 
-# 🏆 Hackathon Focus
+## 📡 Offline Basic Health Precautions & Guidance
 
-SwasthyaSetu is built around a simple hackathon principle:
+> **SwasthyaSetu works even when internet connectivity is unavailable by providing a small set of pre-stored, basic health precautions and safety guidance.**
 
-### Identify a real accessibility problem.
+### 🌿 What Users Can Access Offline
 
-### Build around the actual user.
+- 💧 **Hydration & ORS Guidance** – Basic precautions for dehydration and weakness
+- 🌡️ **Fever Care** – Basic precautions and warning signs
+- 😷 **Cough & Cold Care** – Simple hygiene and precautionary guidance
+- 🦟 **Mosquito Prevention** – Measures to reduce mosquito-borne illness risk
+- 🧼 **Hygiene & Sanitation** – Handwashing, clean water and food-safety practices
+- 🥗 **Basic Nutrition Guidance** – Simple healthy eating and nutrition precautions
+- ☀️ **Heat & Weather Safety** – Basic precautions during extreme heat
+- 🚨 **Warning Signs** – Guidance on when immediate medical attention should be sought
 
-### Use technology where it removes friction.
+### 🔄 Offline Working Flow
 
-### Keep humans involved where human judgment matters.
-
-### Make the experience understandable.
-
+```text
+        👤 User
+           │
+           ▼
+   📱 Open SwasthyaSetu
+           │
+           ▼
+   🌐 Internet Available?
+       /           \
+     YES            NO
+      │              │
+      ▼              ▼
+Online Guidance   📦 Local
+                  Health Guide
+                      │
+                      ▼
+              📖 Basic Precautions
+                      │
+                      ▼
+                🚨 Warning Signs
+                      │
+                      ▼
+              🏥 Seek Medical Care
+              when required
 ---
 
 # 📌 Project Highlights
@@ -1457,6 +1881,42 @@ SCALABILITY
 ```
 
 ---
+
+## 🏛️ Government Health Policy & Programme Guidance
+
+> **SwasthyaSetu provides users with simple, easy-to-understand information about basic government health policies and public healthcare programmes relevant to their needs.**
+
+### 📋 What This Feature Provides
+
+- 🏥 **Basic Public Healthcare Programmes** – Simple information about government healthcare initiatives
+- 💉 **Immunization Programmes** – Basic awareness about government vaccination programmes
+- 👩‍🍼 **Maternal & Child Health Programmes** – General information about relevant public health initiatives
+- 🧑‍⚕️ **Primary Healthcare Initiatives** – Information about government-supported primary healthcare services
+- 🧠 **Public Mental Health Programmes** – Basic information about government mental-health initiatives
+- 📑 **Government Health Schemes & Policies** – Simple explanations of relevant policies and programmes
+
+### 🔄 How It Works
+
+```text
+👤 User
+   │
+   ▼
+🎙️ Voice / Text Query
+   │
+   ▼
+🔎 Understand User's Requirement
+   │
+   ▼
+🏛️ Match with Relevant Government
+   Health Policy / Programme
+   │
+   ▼
+📖 Show Simple Explanation
+   │
+   ├── 📋 Programme / Policy
+   ├── 🎯 Purpose
+   ├── 👥 Intended Beneficiaries
+   └── 🔗 Official Information Source
 
 # ⚠️ Healthcare Disclaimer
 
