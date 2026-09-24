@@ -56,7 +56,7 @@ Many rural patients may face multiple barriers while accessing healthcare:
 - 💊 Difficulty understanding prescriptions and dosage instructions
 - 📅 Missed follow-ups and appointments
 - 🗂️ Lack of organized health records
-- - 📞 **AI Voice Helpline** – Basic-phone users can access healthcare guidance through a voice-based helpline
+- 📞 **AI Voice Helpline** – Basic-phone users can access healthcare guidance through a voice-based helpline
 - 📡 **Offline Basic Health Precautions** – Essential health, hygiene and safety guidance remains available without internet
 - 🏛️ **Government Health Policies & Programmes** – Suggests basic government health policies and public healthcare programmes relevant to users
 - 🩺 **Doctor Connectivity** – Helps connect patients with doctors or healthcare facilities for further medical assistance
